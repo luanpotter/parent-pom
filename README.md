@@ -15,3 +15,11 @@ Just drop this to your `pom.xml`:
         <version>1.1.1</version>
     </parent>
 ````
+
+## Deploying
+
+Unless you use the deploy profile, no signing is done and no key is needed. To deploy to maven central, use:
+
+```bash
+    mvn deploy -Pdeploy
+```
